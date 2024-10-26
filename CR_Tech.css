@@ -1,0 +1,533 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    height: 40px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.navbar {
+    display: flex;
+    flex-flow: row wrap;
+    height: 50px;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    background-color: rgba(229, 234, 237, 0.832);
+}
+
+.menu {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 40px;
+}
+
+.menu li a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu li a:hover {
+    text-decoration: underline;
+    color: rgb(79, 82, 85);
+}
+
+/* section 1 about */
+.abouttxt {
+    font-weight: bold;
+    font-size: 170px;
+    color: rgba(141, 148, 145, 0.147);
+    text-align: center;
+    position: relative;
+    top: 60px;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 25px;
+    gap: 80px;
+}
+
+.about img {
+    margin-left: 30px;
+    margin-top: -30px;
+}
+
+.iam {
+    display: flex;
+    flex-direction: column;
+}
+
+.imtxt {
+    font-size: 40px;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 40px;
+}
+
+.commfont {
+    font-size: 15px;
+    font-family: 'Commissioner', sans-serif;
+}
+
+.face {
+    display: flex;
+    gap: 5px;
+    padding-left: 30px;
+    margin-top: -20px;
+}
+
+.collom {
+    font-weight: bold;
+    font-family: 'Commissioner', sans-serif;
+    font-size: 15px;
+
+}
+
+.collom p {
+    transform: rotate(90deg);
+}
+
+.small {
+    gap: 20px;
+    display: flex;
+}
+
+.conbox {
+    text-align: center;
+    font-family: 'Commissioner', sans-serif;
+    font-weight: 900;
+    font-size: 13px;
+    height: 20px;
+    width: 124px;
+    border: 1px solid black;
+    margin-top: 25px;
+    padding-top: 3px;
+    letter-spacing: 2px;
+    margin-left: 30px;
+}
+
+.vr {
+    border-bottom: 1px solid black;
+    height: 70px;
+    margin-top: 9px;
+    margin-right: -71px;
+}
+
+/* section 2 services */
+.service {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 70px;
+}
+
+.service img {
+    margin-top: -100px;
+}
+
+.servr {
+    border-bottom: 1px solid black;
+    height: 70px;
+    margin-top: 9px;
+    margin-right: -68px;
+}
+
+.mainservices {
+    font-weight: bold;
+    font-size: 240px;
+    color: rgba(141, 148, 145, 0.184);
+    text-align: center;
+}
+
+.my {
+    margin-top: -80px;
+}
+
+.my1 {
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-family: 'Commissioner', sans-serif;
+    margin-bottom: 20px;
+}
+
+.my2 {
+    font-size: 35px;
+    font-family: 'Merriweather', serif;
+}
+
+/* ser 12 */
+.graphic {
+    margin-top: 40px;
+}
+
+.ser12 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sercoll {
+    font-weight: bold;
+    font-family: 'Commissioner', sans-serif;
+    font-size: 13px;
+}
+
+.sercoll p {
+    margin-left: -80px;
+    transform: rotate(90deg);
+}
+
+.graphic li {
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+.graphic p {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* section 3 work */
+.worktxt {
+    font-weight: bold;
+    font-size: 240px;
+    color: rgba(141, 148, 145, 0.184);
+    text-align: center;
+}
+
+.done {
+    text-align: center;
+    margin-top: -100px;
+}
+
+.done1 {
+    letter-spacing: 3px;
+    font-size: 13px;
+    color: rgb(99, 96, 93);
+}
+
+.done2 {
+    font-size: 35px;
+    font-family: 'Merriweather', serif;
+}
+
+.prot {
+    font-weight: bold;
+    font-family: 'Commissioner', sans-serif;
+}
+
+.prot p {
+    transform: rotate(90deg);
+}
+
+.workvr {
+    border-bottom: 1px solid black;
+    height: 100px;
+    margin-top: 9px;
+    margin-right: -100px;
+}
+
+.protimg {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.workimg {
+    background-image: url('./img/work-1.jpg.webp');
+    background-size: contain;
+    height: 550px;
+    width: 820px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.workbox {
+    height: 130px;
+    width: 235px;
+    background-color: white;
+    font-family: 'Merriweather', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.workend {
+    display: flex;
+    justify-content: center;
+    font-family: 'Commissioner', sans-serif;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+.viewvr {
+    border-top: 1px solid black;
+    width: 150px;
+    margin-top: 10px;
+}
+
+.view {
+    display: flex;
+    justify-content: center;
+    font-family: 'Merriweather', serif;
+    letter-spacing: 2px;
+    gap: 15px;
+}
+
+/* photo 2 */
+.work2 {
+    display: flex;
+    justify-content: center;
+}
+
+.workimg2 {
+    background-image: url('./img/work-2.jpg.webp');
+    background-size: contain;
+    height: 550px;
+    width: 820px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.workbox {
+    height: 130px;
+    width: 235px;
+    background-color: white;
+    font-family: 'Merriweather', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.workend {
+    display: flex;
+    justify-content: center;
+    font-family: 'Commissioner', sans-serif;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+.viewvr {
+    border-top: 1px solid black;
+    width: 150px;
+    margin-top: 10px;
+}
+
+.view {
+    display: flex;
+    justify-content: center;
+    font-family: 'Merriweather', serif;
+    letter-spacing: 2px;
+    gap: 15px;
+}
+
+/* section Blog */
+.blogtxt {
+    font-weight: bold;
+    font-size: 170px;
+    color: rgba(141, 148, 145, 0.184);
+    text-align: center;
+}
+
+.read {
+    text-align: center;
+    margin-top: -70px;
+}
+
+.read1 {
+    letter-spacing: 3px;
+    font-size: 13px;
+    color: rgb(99, 96, 93);
+}
+
+.read2 {
+    font-size: 35px;
+    font-family: 'Merriweather', serif;
+}
+
+.erro {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: -130px;
+}
+
+.erro1 {
+    text-align: center;
+    background-color: rgb(185, 188, 192);
+    height: 20px;
+    width: 30px;
+    padding-top: 5px;
+}
+
+.erro2 {
+    text-align: center;
+    background-color: rgb(185, 188, 192);
+    height: 20px;
+    width: 30px;
+    padding-top: 5px;
+}
+
+/* blogimg */
+.blogimg {
+    display: flex;
+    justify-content: center;
+}
+
+.blogimg1 {
+    margin-top: 15px;
+}
+
+.bitxt {
+    font-size: 25px;
+    font-family: 'Merriweather', serif;
+    margin-left: 25px;
+}
+
+.bitxt1 {
+    font-size: 13px;
+    font-family: 'Commissioner', sans-serif;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+/* }?clint say */
+.testim {
+    font-size: 200px;
+    font-weight: bold;
+    color: rgba(141, 148, 145, 0.184);
+    text-align: center;
+}
+
+.say {
+    text-align: center;
+    margin-top: -100px;
+}
+
+.say1 {
+    letter-spacing: 3px;
+    font-size: 13px;
+    color: rgb(99, 96, 93);
+}
+
+.say2 {
+    font-size: 40px;
+    font-family: 'Merriweather', serif;
+}
+
+.mainsay {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 50px;
+}
+
+.transay {
+    font-weight: bold;
+    font-family: 'Commissioner', sans-serif;
+    font-size: 15px;
+}
+
+.transay p {
+    transform: rotate(90deg);
+}
+
+.for1 {
+
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.sir {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* footer */
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+    width: 100%;
+    background-color: rgb(229, 234, 237);
+    align-items: center;
+}
+
+.talk {
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 20px;
+}
+
+.face1 {
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.subtalk {
+    font-size: 15px;
+    font-family: 'Commissioner', sans-serif;
+}
+
+.email {
+    height: 30px;
+    width: 200px;
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 4px;
+    box-sizing: border-box;
+    border-radius: 50px 50px 50px 50px;
+    margin-top: 20px;
+    font-family: 'Commissioner', sans-serif;
+    font-size: 15px;
+}
+
+.subsc {
+    height: 30px;
+    width: 200px;
+    background-color: rgb(113, 115, 116);
+    color: white;
+    text-align: center;
+    padding-top: 4px;
+    box-sizing: border-box;
+    border-radius: 50px 50px 50px 50px;
+    font-family: 'Commissioner', sans-serif;
+    margin-top: 15px;
+    letter-spacing: 3px;
+    font-size: 15px;
+}
+
+.nilesh {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    height: 30px;
+    width: 100%;
+    background-color: rgb(229, 234, 237);
+}
